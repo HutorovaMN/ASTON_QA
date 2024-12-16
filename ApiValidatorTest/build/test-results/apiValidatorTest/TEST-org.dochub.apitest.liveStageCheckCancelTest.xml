@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.dochub.apitest.liveStageCheckCancelTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-13T07:38:19" hostname="REMRB-KHUTARAVA" time="3.709">
+  <properties/>
+  <testcase name="testcase_86_Positive" classname="org.dochub.apitest.liveStageCheckCancelTest" time="3.709"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 86
+ETag: W/"56-I85lQXv1TG2JOvOk+A6uMqNekSk"
+Vary: Accept-Encoding
+Date: Fri, 13 Dec 2024 07:38:21 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "code": 200,
+    "message": "Атрибут объекта успешно обновлен"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 86
+ETag: W/"56-I85lQXv1TG2JOvOk+A6uMqNekSk"
+Vary: Accept-Encoding
+Date: Fri, 13 Dec 2024 07:38:22 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "code": 200,
+    "message": "Атрибут объекта успешно обновлен"
+}
+Request method:	GET
+Request URI:	http://localhost:3030/core/storage/jsonata/kadzo.v2023.validators
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+ETag: W/"d2f7-jhTj+5YrqSptxVUcZ9pJQIxyTC0"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Fri, 13 Dec 2024 07:38:22 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+[
+    {
+        "uid": "systems-live-stage-v1-ecogroup.berezka.systems.berezka.catalog-notinlist",
+        "id": "ecogroup.berezka.systems.berezka.catalog",
+        "name": "Каталог услуг",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage",
+        "attr_name": "Этап жизненного цикла (текущий)",
+        "error_text": "Значение \"Отменено\" не из словаря допустимых значений",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.berezka.catalog",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-ownership2lc-v1-ecogroup.berezka.systems.analytics-notexist",
+        "id": "ecogroup.berezka.systems.analytics",
+        "name": "Аналитика",
+        "error_type": "Атрибут \"Степень владения\"",
+        "attr_id": "ownership",
+        "attr_name": "Степень владения",
+        "error_text": "Невозможно проверить условие (Не применимо для систем \"SaaS\" и \"Системы партнера\".), не заполнен атрибут ownership.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.analytics",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.ecosystem.partners.2gis-notexist",
+        "id": "ecogroup.berezka.ecosystem.partners.2gis",
+        "name": "2GIS",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.ecosystem.partners.2gis",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.ecosystem.partners.2gis-notexist",
+        "id": "ecogroup.berezka.ecosystem.partners.2gis",
+        "name": "2GIS",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.ecosystem.partners.2gis",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.external_systems.marketing-notexist",
+        "id": "ecogroup.berezka.external_systems.marketing",
+        "name": "Маркетинговые рассылки",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.marketing",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.external_systems.marketing-notexist",
+        "id": "ecogroup.berezka.external_systems.marketing",
+        "name": "Маркетинговые рассылки",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.marketing",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.external_systems.smsc-notexist",
+        "id": "ecogroup.berezka.external_systems.smsc",
+        "name": "SMSC",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.smsc",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.external_systems.smsc-notexist",
+        "id": "ecogroup.berezka.external_systems.smsc",
+        "name": "SMSC",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.smsc",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.external_systems.email-notexist",
+        "id": "ecogroup.berezka.external_systems.email",
+        "name": "Email",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.email",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.external_systems.email-notexist",
+        "id": "ecogroup.berezka.external_systems.email",
+        "name": "Email",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.email",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.external_systems.iptelephony-notexist",
+        "id": "ecogroup.berezka.external_systems.iptelephony",
+        "name": "АТС",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.iptelephony",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.external_systems.iptelephony-notexist",
+        "id": "ecogroup.berezka.external_systems.iptelephony",
+        "name": "АТС",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.iptelephony",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.external_systems.office365-notexist",
+        "id": "ecogroup.berezka.external_systems.office365",
+        "name": "Офис365",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.office365",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.external_systems.office365-notexist",
+        "id": "ecogroup.berezka.external_systems.office365",
+        "name": "Офис365",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.office365",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.external_systems.telegram-notexist",
+        "id": "ecogroup.berezka.external_systems.telegram",
+        "name": "Telegram",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.telegram",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.external_systems.telegram-notexist",
+        "id": "ecogroup.berezka.external_systems.telegram",
+        "name": "Telegram",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.telegram",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.external_systems.esia-notexist",
+        "id": "ecogroup.berezka.external_systems.esia",
+        "name": "Госуслуги",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.esia",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.external_systems.esia-notexist",
+        "id": "ecogroup.berezka.external_systems.esia",
+        "name": "Госуслуги",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.esia",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.external_systems.smev-notexist",
+        "id": "ecogroup.berezka.external_systems.smev",
+        "name": "СМЭВ",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "live-stage-target",
+        "attr_name": "Этап жизненного цикла на горизонт планирования",
+        "error_text": "Атрибут live-stage-target не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.smev",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-target-status-v1-ecogroup.berezka.external_systems.smev-notexist",
+        "id": "ecogroup.berezka.external_systems.smev",
+        "name": "СМЭВ",
+        "error_type": "Атрибуты жизненного цикла",
+        "attr_id": "target-status",
+        "attr_name": "Целевой статус (решение принято)",
+        "error_text": "Атрибут target-status не может быть пустым",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.smev",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "id": "ecogroup.berezka.systems.analytics",
+        "uid": "systems-criticality-v1-ecogroup.berezka.systems.analytics-noownership",
+        "name": "Аналитика",
+        "error_type": "Атрибут \"Степень владения\"",
+        "attr_id": "ownership",
+        "attr_name": "Степень владения",
+        "error_text": "Невозможно проверить условие (Применимо для систем с владением \"Владеем исходных кодом\", \"Владеем экземпляром\"). Атрибут ownership не божет быьть пустым.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.analytics",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "id": "ecogroup.berezka.systems.analytics",
+        "uid": "systems-criticality-v1-ecogroup.berezka.systems.analytics-nolocation",
+        "name": "Аналитика",
+        "error_type": "Атрибут \"Размещение\"",
+        "attr_id": "location",
+        "attr_name": "Размещение",
+        "error_text": "Невозможно проверить условие (Применимо для систем с размещением \"Внутренняя\"). Атрибут location не божет быьть пустым.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.analytics",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "id": "ecogroup.berezka.systems.dubok",
+        "uid": "systems-criticality-v1-ecogroup.berezka.systems.dubok-fperror",
+        "name": "Дубок услуг",
+        "error_type": "Критичность ФП выше критичности родительской системы",
+        "attr_id": "criticality",
+        "attr_name": "Уровень критичности",
+        "error_text": "Класс критичности ФП не может быть выше класса критичности родительской системы",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.ecosystem.partners.2gis-notexist",
+        "id": "ecogroup.berezka.ecosystem.partners.2gis",
+        "name": "2GIS",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.ecosystem.partners.2gis",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.external_systems.marketing-notexist",
+        "id": "ecogroup.berezka.external_systems.marketing",
+        "name": "Маркетинговые рассылки",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.marketing",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.external_systems.email-notexist",
+        "id": "ecogroup.berezka.external_systems.email",
+        "name": "Email",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.email",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.external_systems.iptelephony-notexist",
+        "id": "ecogroup.berezka.external_systems.iptelephony",
+        "name": "АТС",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.iptelephony",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.external_systems.office365-notexist",
+        "id": "ecogroup.berezka.external_systems.office365",
+        "name": "Офис365",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.office365",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.external_systems.telegram-notexist",
+        "id": "ecogroup.berezka.external_systems.telegram",
+        "name": "Telegram",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.telegram",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.external_systems.esia-notexist",
+        "id": "ecogroup.berezka.external_systems.esia",
+        "name": "Госуслуги",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.esia",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.external_systems.smev-notexist",
+        "id": "ecogroup.berezka.external_systems.smev",
+        "name": "СМЭВ",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.smev",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.systems.osinka-notexist",
+        "id": "ecogroup.berezka.systems.osinka",
+        "name": "Базар услуг",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.osinka",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.systems.sosinka-notexist",
+        "id": "ecogroup.berezka.systems.sosinka",
+        "name": "Сосинка услуг",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.sosinka",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.systems.dubok-notexist",
+        "id": "ecogroup.berezka.systems.dubok",
+        "name": "Дубок услуг",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.systems.fias-notexist",
+        "id": "ecogroup.berezka.systems.fias",
+        "name": "ФИАС",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.fias",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-functionalities-v1-ecogroup.berezka.systems.fias_gate-notexist",
+        "id": "ecogroup.berezka.systems.fias_gate",
+        "name": "Шлюз ФИАС",
+        "attr_id": "systems",
+        "error_type": "Функциональность АС",
+        "error_text": "Проверьте, что существует Функциональность \"kadzo.v2023.functions\" в атрибуте systems которой указана данная система.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.fias_gate",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-change_type-v1-ecogroup.berezka.systems.berezka.catalog-incorrect",
+        "id": "ecogroup.berezka.systems.berezka.catalog",
+        "name": "Каталог услуг",
+        "error_type": "Жизненный цикл АС",
+        "attr_id": "change-type",
+        "attr_name": "Тип изменений",
+        "error_text": "Данный атрибут должен заполняться значениями справочника change-type (_ecosystems_/kadzo/v2023/entities/application/systems.yaml). При этом установленное значение должно коррелировать со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" и \"Степень владения / ownership\" текущей АС. Алгоритм проверки и перечень допустимых комбинаций атрибутов приведен в разделе описания проверок.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.berezka.catalog",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-change_type-v1-ecogroup.berezka.external_systems.smev-incorrect",
+        "id": "ecogroup.berezka.external_systems.smev",
+        "name": "СМЭВ",
+        "error_type": "Жизненный цикл АС",
+        "attr_id": "change-type",
+        "attr_name": "Тип изменений",
+        "error_text": "Данный атрибут должен заполняться значениями справочника change-type (_ecosystems_/kadzo/v2023/entities/application/systems.yaml). При этом установленное значение должно коррелировать со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" и \"Степень владения / ownership\" текущей АС. Алгоритм проверки и перечень допустимых комбинаций атрибутов приведен в разделе описания проверок.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.external_systems.smev",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-change_type-v1-ecogroup.berezka.systems.osinka-incorrect",
+        "id": "ecogroup.berezka.systems.osinka",
+        "name": "Базар услуг",
+        "error_type": "Жизненный цикл АС",
+        "attr_id": "change-type",
+        "attr_name": "Тип изменений",
+        "error_text": "Данный атрибут должен заполняться значениями справочника change-type (_ecosystems_/kadzo/v2023/entities/application/systems.yaml). При этом установленное значение должно коррелировать со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" и \"Степень владения / ownership\" текущей АС. Алгоритм проверки и перечень допустимых комбинаций атрибутов приведен в разделе описания проверок.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.osinka",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-change_type-v1-ecogroup.berezka.systems.sosinka-incorrect",
+        "id": "ecogroup.berezka.systems.sosinka",
+        "name": "Сосинка услуг",
+        "error_type": "Жизненный цикл АС",
+        "attr_id": "change-type",
+        "attr_name": "Тип изменений",
+        "error_text": "Данный атрибут должен заполняться значениями справочника change-type (_ecosystems_/kadzo/v2023/entities/application/systems.yaml). При этом установленное значение должно коррелировать со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" и \"Степень владения / ownership\" текущей АС. Алгоритм проверки и перечень допустимых комбинаций атрибутов приведен в разделе описания проверок.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.sosinka",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-change_type-v1-ecogroup.berezka.systems.dubok-incorrect",
+        "id": "ecogroup.berezka.systems.dubok",
+        "name": "Дубок услуг",
+        "error_type": "Жизненный цикл АС",
+        "attr_id": "change-type",
+        "attr_name": "Тип изменений",
+        "error_text": "Данный атрибут должен заполняться значениями справочника change-type (_ecosystems_/kadzo/v2023/entities/application/systems.yaml). При этом установленное значение должно коррелировать со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" и \"Степень владения / ownership\" текущей АС. Алгоритм проверки и перечень допустимых комбинаций атрибутов приведен в разделе описания проверок.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.systems.berezka.catalog-incorrect",
+        "id": "ecogroup.berezka.systems.berezka.catalog",
+        "name": "Каталог услуг",
+        "error_type": "Комбинация атрибутов \"Этап ЖЦ\" и \"Этап жизненного цикла на горизонт планирования\"",
+        "attr_id": "\"live-stage\", \"live-stage-target\"",
+        "attr_name": "\"Этап ЖЦ\" и \"Этап жизненного цикла на горизонт планирования\"",
+        "error_text": "Некорректная комбинация атрибутов, установите правильные значения",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.berezka.catalog",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.systems.sosinka-incorrect",
+        "id": "ecogroup.berezka.systems.sosinka",
+        "name": "Сосинка услуг",
+        "error_type": "Комбинация атрибутов \"Этап ЖЦ\" и \"Этап жизненного цикла на горизонт планирования\"",
+        "attr_id": "\"live-stage\", \"live-stage-target\"",
+        "attr_name": "\"Этап ЖЦ\" и \"Этап жизненного цикла на горизонт планирования\"",
+        "error_text": "Некорректная комбинация атрибутов, установите правильные значения",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.sosinka",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-live-stage-target-v1-ecogroup.berezka.systems.dubok-incorrect",
+        "id": "ecogroup.berezka.systems.dubok",
+        "name": "Дубок услуг",
+        "error_type": "Комбинация атрибутов \"Этап ЖЦ\" и \"Этап жизненного цикла на горизонт планирования\"",
+        "attr_id": "\"live-stage\", \"live-stage-target\"",
+        "attr_name": "\"Этап ЖЦ\" и \"Этап жизненного цикла на горизонт планирования\"",
+        "error_text": "Некорректная комбинация атрибутов, установите правильные значения",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-performance-v1-ecogroup.berezka.systems.dubok-incorrect",
+        "id": "ecogroup.berezka.systems.dubok",
+        "name": "Дубок услуг",
+        "error_type": "Атрибут \"Производительность\" не может быть пустым",
+        "attr_id": "performance",
+        "attr_name": "Производительность",
+        "error_text": "Атрибут \"Производительность\" должен быть заполнен для данной АС",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-sla-v1-ecogroup.berezka.systems.dubok-incorrect",
+        "id": "ecogroup.berezka.systems.dubok",
+        "name": "Дубок услуг",
+        "error_type": "Атрибут \"SLA\" не может быть пустым",
+        "attr_id": "sla",
+        "attr_name": "SLA",
+        "error_text": "Атрибут \"SLA\" должен быть заполнен для данной АС",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-rto-v1-ecogroup.berezka.systems.dubok-incorrect",
+        "id": "ecogroup.berezka.systems.dubok",
+        "name": "Дубок услуг",
+        "error_type": "Атрибут \"RTO\" не может быть пустым",
+        "attr_id": "rto",
+        "attr_name": "RTO",
+        "error_text": "Атрибут \"RTO\" должен быть заполнен для данной АС",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-rpo-v1-ecogroup.berezka.systems.dubok-incorrect",
+        "id": "ecogroup.berezka.systems.dubok",
+        "name": "Дубок услуг",
+        "error_type": "Атрибут \"RPO\" не может быть пустым",
+        "attr_id": "rpo",
+        "attr_name": "RPO",
+        "error_text": "Атрибут \"RPO\" должен быть заполнен для данной АС",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-monitoring-v1-ecogroup.berezka.systems.dubok-incorrect",
+        "id": "ecogroup.berezka.systems.dubok",
+        "name": "Дубок услуг",
+        "error_type": "Атрибут \"Мониторинг\" не может быть пустым",
+        "attr_id": "monitoring",
+        "attr_name": "Мониторинг",
+        "error_text": "Атрибут \"Мониторинг\" должен быть заполнен для данной АС",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.dubok",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "systems-fp-live-stage-v1-ecogroup.berezka.systems.berezka.catalog-incorrect",
+        "id": "ecogroup.berezka.systems.berezka.catalog",
+        "name": "Каталог услуг",
+        "error_type": "Этап жизненного цикла ФП",
+        "attr_id": "live-stage",
+        "attr_name": "Этап ЖЦ",
+        "error_text": "Исправьте значение атрибута Этап ЖЦ. Атрибуты Этап ЖЦ в ФП и родительской АС не согласованы.",
+        "link": "/entities/kadzo.v2023.systems/card?id=ecogroup.berezka.systems.berezka.catalog",
+        "domain": "ecogroup.berezka",
+        "validator_type": "systems"
+    },
+    {
+        "uid": "business_objects-data_objects-v1-ecogroup.berezka.business_objects.test",
+        "id": "ecogroup.berezka.business_objects.test",
+        "error_type": "Бизнес-объекты без объектов данных",
+        "error_text": "Ни один объект данных не ссылается на бизнес объект",
+        "link": "/entities/kadzo.v2023.business_objects/card?id=ecogroup.berezka.business_objects.test",
+        "domain": "ecogroup.berezka",
+        "validator_type": "business_objects"
+    },
+    {
+        "uid": "clients-count-v1-ecogroup.berezka.clients.flighter-invalidtype",
+        "id": "ecogroup.berezka.clients.flighter",
+        "name": "Летчики",
+        "error_type": "Базовые атрибуты",
+        "attr_id": "count",
+        "attr_name": "Количественная оценка",
+        "error_text": "Значение \"asas\" не является числом",
+        "link": "/entities/kadzo.v2023.clients/card?id=ecogroup.berezka.clients.flighter",
+        "domain": "ecogroup.berezka",
+        "validator_type": "clients"
+    },
+    {
+        "uid": "clients-channels-v1-ecogroup.berezka.clients.flighter",
+        "id": "ecogroup.berezka.clients.flighter",
+        "error_text": "Клиент не укзан ни в одном канале",
+        "link": "/entities/kadzo.v2023.clietns/card?id=ecogroup.berezka.clients.flighter",
+        "domain": "ecogroup.berezka",
+        "validator_type": "clients"
+    },
+    {
+        "uid": "data_objects-master_system-v1-ecogroup.berezka.data_objects.cc_pay_data-notinlist",
+        "id": "ecogroup.berezka.data_objects.cc_pay_data",
+        "name": "Данные о платежах по картам из платежных систем",
+        "error_type": "Атрибут \"АС, являющаяся мастер системой для объекта данных\"",
+        "attr_id": "master_system",
+        "attr_name": "АС, являющаяся мастер системой для объекта данных",
+        "error_text": "Значение \"sber.systems.paymentgate\" не найдено среди идентификаторов систем \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.data_objects/card?id=ecogroup.berezka.data_objects.cc_pay_data",
+        "domain": "ecogroup.berezka",
+        "validator_type": "data_objects"
+    },
+    {
+        "uid": "data_objects-master_system-v1-ecogroup.berezka.data_objects.user_info-notinlist",
+        "id": "ecogroup.berezka.data_objects.user_info",
+        "name": "Данные пользователя из SberProfile",
+        "error_type": "Атрибут \"АС, являющаяся мастер системой для объекта данных\"",
+        "attr_id": "master_system",
+        "attr_name": "АС, являющаяся мастер системой для объекта данных",
+        "error_text": "Значение \"sber.ecosystem.enablers.sberid\" не найдено среди идентификаторов систем \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.data_objects/card?id=ecogroup.berezka.data_objects.user_info",
+        "domain": "ecogroup.berezka",
+        "validator_type": "data_objects"
+    },
+    {
+        "uid": "data_objects-master_system-v1-ecogroup.berezka.data_objects.token_info-notinlist",
+        "id": "ecogroup.berezka.data_objects.token_info",
+        "name": "id_token, access_token",
+        "error_type": "Атрибут \"АС, являющаяся мастер системой для объекта данных\"",
+        "attr_id": "master_system",
+        "attr_name": "АС, являющаяся мастер системой для объекта данных",
+        "error_text": "Значение \"sber.ecosystem.enablers.sberid\" не найдено среди идентификаторов систем \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.data_objects/card?id=ecogroup.berezka.data_objects.token_info",
+        "domain": "ecogroup.berezka",
+        "validator_type": "data_objects"
+    },
+    {
+        "uid": "domain-v1-sosna.functions.send_sms-invaliddomain",
+        "id": "sosna.functions.send_sms",
+        "name": "Отправка в ад",
+        "error_type": "Домен не принадлежащий организации",
+        "attr_id": "Идентификатор объекта",
+        "attr_name": "pattern",
+        "error_text": "Объекты организации не могут содержать в идентификаторе другой домен (отличный от ecogroup.berezka)",
+        "link": "/entities/kadzo.v2023.functions/card?id=sosna.functions.send_sms",
+        "domain": "ecogroup.berezka",
+        "validator_type": "domain"
+    },
+    {
+        "uid": "integrations-protected-v1-ecogroup.berezka.integrations.osinka_catalog-notexist",
+        "id": "ecogroup.berezka.integrations.osinka_catalog",
+        "name": "Интеграция маркетплейса с аналитической системой",
+        "error_type": "Атрибут \"Средства защиты потока\"",
+        "attr_id": "protected",
+        "attr_name": "Средства защиты потока",
+        "error_text": "Атрибут protected не может быть пустым",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.osinka_catalog",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-technologies-v1-ecogroup.berezka.integrations.1c_fias-notexist",
+        "id": "ecogroup.berezka.integrations.1c_fias",
+        "name": "Получение списка адресов для формирования регламентной отчетности",
+        "error_type": "Атрибут \"Технологии интеграции\"",
+        "attr_id": "technologies",
+        "attr_name": "Технологии интеграции",
+        "error_text": "Атрибут technologies не может быть пустым",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.1c_fias",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-protected-v1-ecogroup.berezka.integrations.1c_fias-notexist",
+        "id": "ecogroup.berezka.integrations.1c_fias",
+        "name": "Получение списка адресов для формирования регламентной отчетности",
+        "error_type": "Атрибут \"Средства защиты потока\"",
+        "attr_id": "protected",
+        "attr_name": "Средства защиты потока",
+        "error_text": "Атрибут protected не может быть пустым",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.1c_fias",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-source-v1-ecogroup.berezka.integrations.sberid-berezka-notinlist",
+        "id": "ecogroup.berezka.integrations.sberid-berezka",
+        "name": "Получение данных по user_info",
+        "error_type": "Атрибут \"Источник данных (поставщик)\"",
+        "attr_id": "source",
+        "attr_name": "Источник данных (поставщик)",
+        "error_text": "Значение \"sber.ecosystem.enablers.sberid\" не найдено среди идентификаторов \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.sberid-berezka",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-source-v1-ecogroup.berezka.integrations.sberid-berezka2-notinlist",
+        "id": "ecogroup.berezka.integrations.sberid-berezka2",
+        "name": "Получение id_token и access_token",
+        "error_type": "Атрибут \"Источник данных (поставщик)\"",
+        "attr_id": "source",
+        "attr_name": "Источник данных (поставщик)",
+        "error_text": "Значение \"sber.ecosystem.enablers.sberid\" не найдено среди идентификаторов \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.sberid-berezka2",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-source-v1-ecogroup.berezka.integrations.sberbusinessid-berezka-notinlist",
+        "id": "ecogroup.berezka.integrations.sberbusinessid-berezka",
+        "name": "Интеграция приложения со SberBusinessID",
+        "error_type": "Атрибут \"Источник данных (поставщик)\"",
+        "attr_id": "source",
+        "attr_name": "Источник данных (поставщик)",
+        "error_text": "Значение \"sber.ecosystem.enablers.sberbusinessid\" не найдено среди идентификаторов \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.sberbusinessid-berezka",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-source-v1-ecogroup.berezka.integrations.payment-berezka-notinlist",
+        "id": "ecogroup.berezka.integrations.payment-berezka",
+        "name": "Интеграция платежного шлюза с основным монолитным сервисом",
+        "error_type": "Атрибут \"Источник данных (поставщик)\"",
+        "attr_id": "source",
+        "attr_name": "Источник данных (поставщик)",
+        "error_text": "Значение \"sber.systems.paymentgate\" не найдено среди идентификаторов \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.payment-berezka",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-source-v1-ecogroup.berezka.integrations.сс_payments_data-notinlist",
+        "id": "ecogroup.berezka.integrations.сс_payments_data",
+        "name": "Данные о платежах по картам",
+        "error_type": "Атрибут \"Источник данных (поставщик)\"",
+        "attr_id": "source",
+        "attr_name": "Источник данных (поставщик)",
+        "error_text": "Значение \"sber.systems.paymentgate\" не найдено среди идентификаторов \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.сс_payments_data",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-consumer-v1-ecogroup.berezka.integrations.outer_payments-notinlist",
+        "id": "ecogroup.berezka.integrations.outer_payments",
+        "name": "Платежи внешним контрагентам",
+        "error_type": "Атрибут \"Потребитель данных\"",
+        "attr_id": "consumer",
+        "attr_name": "Потребитель данных",
+        "error_text": "Значение \"sber.systems.paymentgate\" не найдено среди идентификаторов \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.outer_payments",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-consumer-v1-ecogroup.berezka.integrations.catalog_sberads-notinlist",
+        "id": "ecogroup.berezka.integrations.catalog_sberads",
+        "name": "Передача Каталога услуг в SberAds",
+        "error_type": "Атрибут \"Потребитель данных\"",
+        "attr_id": "consumer",
+        "attr_name": "Потребитель данных",
+        "error_text": "Значение \"sber.ecosystem.enablers.sberads\" не найдено среди идентификаторов \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.catalog_sberads",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-source-v1-ecogroup.berezka.integrations.1c_fias-notexist",
+        "id": "ecogroup.berezka.integrations.1c_fias",
+        "name": "Получение списка адресов для формирования регламентной отчетности",
+        "error_type": "Атрибут \"Источник данных (поставщик)\"",
+        "attr_id": "source",
+        "attr_name": "Источник данных (поставщик)",
+        "error_text": "Атрибут source не может быть пустым",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.1c_fias",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "integrations-data-objects-v1-ecogroup.berezka.integrations.1c_fias-notexist",
+        "id": "ecogroup.berezka.integrations.1c_fias",
+        "name": "Получение списка адресов для формирования регламентной отчетности",
+        "error_type": "Атрибут \"Объекты данных\"",
+        "attr_id": "data-objects",
+        "attr_name": "Объекты данных",
+        "error_text": "Атрибут data-objects не может быть пустым",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.1c_fias",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "id": "ecogroup.berezka.integrations.catalog_berezka_service_info",
+        "uid": "integrations-status-v1-ecogroup.berezka.integrations.catalog_berezka_service_info-correlationerror",
+        "name": "Интеграция Каталога услуг с Продуктовой фабрикой",
+        "error_type": "Статус интеграционного потока",
+        "attr_id": "status",
+        "attr_name": "Статус информационных потоков",
+        "error_text": "Проверьте, что установленное значение атрибута \"Статус интеграционного потока\" коррелирует со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" АС Источника и АС потребителя.",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.catalog_berezka_service_info",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "id": "ecogroup.berezka.integrations.catalog_crm",
+        "uid": "integrations-status-v1-ecogroup.berezka.integrations.catalog_crm-correlationerror",
+        "name": "Передача Каталога услуг в CRM",
+        "error_type": "Статус интеграционного потока",
+        "attr_id": "status",
+        "attr_name": "Статус информационных потоков",
+        "error_text": "Проверьте, что установленное значение атрибута \"Статус интеграционного потока\" коррелирует со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" АС Источника и АС потребителя.",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.catalog_crm",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "id": "ecogroup.berezka.integrations.catalog_sberads",
+        "uid": "integrations-status-v1-ecogroup.berezka.integrations.catalog_sberads-correlationerror",
+        "name": "Передача Каталога услуг в SberAds",
+        "error_type": "Статус интеграционного потока",
+        "attr_id": "status",
+        "attr_name": "Статус информационных потоков",
+        "error_text": "Проверьте, что установленное значение атрибута \"Статус интеграционного потока\" коррелирует со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" АС Источника и АС потребителя.",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.catalog_sberads",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "id": "ecogroup.berezka.integrations.osinka_catalog",
+        "uid": "integrations-status-v1-ecogroup.berezka.integrations.osinka_catalog-correlationerror",
+        "name": "Интеграция маркетплейса с аналитической системой",
+        "error_type": "Статус интеграционного потока",
+        "attr_id": "status",
+        "attr_name": "Статус информационных потоков",
+        "error_text": "Проверьте, что установленное значение атрибута \"Статус интеграционного потока\" коррелирует со значением атрибутов \"Этап жизненного цикла (текущий) / live-stage\" АС Источника и АС потребителя.",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.osinka_catalog",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "id": "ecogroup.berezka.integrations.1c_fias",
+        "uid": "integrations-endpoints-consist-v1-ecogroup.berezka.integrations.1c_fias-invalid",
+        "name": "Получение списка адресов для формирования регламентной отчетности",
+        "error_type": "ФЛК - Требования по заполнению архитектуры (проверка корректности вносимых данных)",
+        "attr_id": "kadzo.v2023.integrations",
+        "attr_name": "Интеграции",
+        "error_text": "В случае заполнения аналитики \"Точка взаимодействия / endpoint\" в реестре \"Р14_Интеграционные потоки\" / сущностях _ecosystems_/kadzo/v2023/entities/application/integrations.yaml должна быть обеспечена консистентность данных между реестрами \"Р14_Интеграционные потоки\" / сущностями _ecosystems_/kadzo/v2023/entities/application/integrations.yaml и \"Р17_Точки взаимодействия\" / сущностями _ecosystems_/kadzo/v2023/entities/application/endpoints.yaml",
+        "link": "/entities/kadzo.v2023.integrations/card?id=ecogroup.berezka.integrations.1c_fias",
+        "domain": "ecogroup.berezka",
+        "validator_type": "integrations"
+    },
+    {
+        "uid": "kb_systems-title-v1-ecogroup.berezka.kb.ddos2-notexist",
+        "id": "ecogroup.berezka.kb.ddos2",
+        "error_type": "Базовые атрибуты",
+        "attr_id": "title",
+        "attr_name": "Наименование",
+        "error_text": "Атрибут title не может быть пустым",
+        "link": "/entities/kadzo.v2023.kb_systems/card?id=ecogroup.berezka.kb.ddos2",
+        "domain": "ecogroup.berezka",
+        "validator_type": "kb_systems"
+    },
+    {
+        "id": "ecogroup.berezka.processes.two",
+        "uid": "processes-systems-v1-ecogroup.berezka.processes.two-llll.asd-notinlist",
+        "name": "Подбор исполнителя",
+        "error_type": "Атрибут \"Системы, обеспечивающие бизнес-процесс\"",
+        "attr_id": "systems",
+        "attr_name": "Системы, обеспечивающие бизнес-процесс",
+        "error_text": "Значение \"llll.asd\" не найдено среди идентификаторов систем \"kadzo.v2023.systems\"",
+        "link": "/entities/kadzo.v2023.processes/card?id=ecogroup.berezka.processes.two",
+        "domain": "ecogroup.berezka",
+        "validator_type": "processes"
+    },
+    {
+        "id": "ecogroup.berezka.processes.choose_executor",
+        "uid": "processes-integrations-v1-ecogroup.berezka.processes.choose_executor-notexist",
+        "name": "Подбор исполнителя",
+        "error_type": "Атрибут \"Интеграционные потоки, обеспечивающие бизнес-процесс\"",
+        "attr_id": "integrations",
+        "attr_name": "Интеграционные потоки, обеспечивающие бизнес-процесс",
+        "error_text": "Атрибут integrations не может быть пустым",
+        "link": "/entities/kadzo.v2023.processes/card?id=ecogroup.berezka.processes.choose_executor",
+        "domain": "ecogroup.berezka",
+        "validator_type": "processes"
+    },
+    {
+        "id": "ecogroup.berezka.processes.one",
+        "uid": "processes-integrations-v1-ecogroup.berezka.processes.one-notexist",
+        "name": "Под",
+        "error_type": "Атрибут \"Интеграционные потоки, обеспечивающие бизнес-процесс\"",
+        "attr_id": "integrations",
+        "attr_name": "Интеграционные потоки, обеспечивающие бизнес-процесс",
+        "error_text": "Атрибут integrations не может быть пустым",
+        "link": "/entities/kadzo.v2023.processes/card?id=ecogroup.berezka.processes.one",
+        "domain": "ecogroup.berezka",
+        "validator_type": "processes"
+    },
+    {
+        "uid": "products-description-v1-ecogroup.berezka.products.uid4-notexist",
+        "id": "ecogroup.berezka.products.uid4",
+        "name": "Поддержка клиентов Маркетплейс",
+        "error_type": "Базовые атрибуты",
+        "attr_id": "description",
+        "attr_name": "Описание",
+        "error_text": "Атрибут description не может быть пустым",
+        "link": "/entities/kadzo.v2023.products/card?id=ecogroup.berezka.products.uid4",
+        "domain": "ecogroup.berezka",
+        "validator_type": "products"
+    },
+    {
+        "uid": "tech_params-backup_attributes-v1-ecogroup.berezka.tech_params.berezka.database-invalid",
+        "id": "ecogroup.berezka.tech_params.berezka.database",
+        "error_type": "Параметры резервного копирования",
+        "attr_id": "backup_placement",
+        "attr_name": "Резервное копирование дубликата (место хранения дубликата данных/резервной копии)",
+        "error_text": "Если значение \"Резервное копирование (место хранение бекапа)\" = ЦОД, то значение атрибута \"Резервное копирование дубликата (место хранения дубликата данных/резервной копии)\" должно быть одним из списка: [\"ЦОД\",\"Резервный ЦОД\",\"Offsite\"]",
+        "link": "/entities/kadzo.v2023.tech_params/card?id=ecogroup.berezka.tech_params.berezka.database",
+        "domain": "ecogroup.berezka",
+        "validator_type": "tech_params"
+    },
+    {
+        "uid": "channels-products-v1-ecogroup.berezka.channels.old_office-notexist",
+        "id": "ecogroup.berezka.channels.old_office",
+        "name": "Старый офис",
+        "error_type": "Атрибут \"Продукты, поставляемые в канале\"",
+        "attr_id": "products",
+        "attr_name": "Продукты, поставляемые в канале",
+        "error_text": "Атрибут products не может быть пустым",
+        "link": "/entities/kadzo.v2023.channels/card?id=ecogroup.berezka.channels.old_office",
+        "domain": "ecogroup.berezka",
+        "validator_type": "channels"
+    },
+    {
+        "uid": "criticality_passport-v1-ecogroup.berezka.criticality_passport.catalog",
+        "id": "ecogroup.berezka.criticality_passport.catalog",
+        "error_type": "Базовые атрибуты",
+        "attr_id": "object_criticality_estimation",
+        "attr_name": "Оценка критичности простоя",
+        "error_text": "Критичность Business operational (2)  не соответствует расчетной  () ",
+        "link": "/entities/kadzo.v2023.criticality_passport/card?id=ecogroup.berezka.criticality_passport.catalog",
+        "domain": "ecogroup.berezka",
+        "validator_type": "criticality_passport"
+    }
+]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

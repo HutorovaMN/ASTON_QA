@@ -1,0 +1,44 @@
+plugins {
+    id 'java-library'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group 'org.Dochub'
+version '1.0-SNAPSHOT'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    implementation 'io.rest-assured:rest-assured:5.3.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.1.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.10.1'
+
+    testImplementation 'org.xmlunit:xmlunit-assertj:2.9.1'
+    testImplementation 'org.xmlunit:xmlunit-core:2.9.1'
+
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+
+    implementation project(':Common')
+
+}
+
+test {
+    useJUnitPlatform()
+}
+tasks.register('apiValidatorTest', Test) {
+    useJUnitPlatform {
+        includeTags("apiValidator")
+    }
+}
+
+compileJava.dependsOn(clean)
